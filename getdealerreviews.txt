@@ -1,0 +1,1 @@
+[{"reviewer_name": "Vivek", "review_text": "Dealer: Toyota Kansas\r\nReviewer Name: Vivek\r\nReview Text: Excellent service and friendly staff\r\nPurchase Date: 2026-06-05", "purchase_date": "2026-06-05"}]

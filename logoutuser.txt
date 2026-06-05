@@ -1,0 +1,8 @@
+curl http://127.0.0.1:8000/logout
+
+Output:
+
+{
+ "status": true,
+ "message": "Logged out successfully"
+}

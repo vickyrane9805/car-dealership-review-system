@@ -1,0 +1,8 @@
+(venv) C:\Users\Vivek\OneDrive\Desktop\Projects\car-dealership-review-system\server>python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 05, 2026 - 20:46:24
+Django version 5.2.15, using settings 'server.settings'
+Starting development server at http://127.0.0.1:8000/
