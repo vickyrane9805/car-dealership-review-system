@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
@@ -6,93 +7,90 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
 
-    <link rel="stylesheet" href="style.css">
+```
+<link rel="stylesheet" href="/static/style.css">
+<link rel="stylesheet" href="/static/bootstrap.min.css">
 
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            background-color: #f4f4f4;
-        }
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+    }
 
-        nav {
-            background-color: #2c3e50;
-            padding: 15px;
-        }
+    nav {
+        background-color: #2c3e50;
+        padding: 15px;
+    }
 
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin-right: 20px;
-            padding: 8px 12px;
-            border-radius: 5px;
-        }
+    nav a {
+        color: white;
+        text-decoration: none;
+        margin-right: 20px;
+        padding: 8px 12px;
+    }
 
-        .active {
-            background-color: #3498db;
-        }
+    .active {
+        background-color: #3498db;
+        border-radius: 5px;
+    }
 
-        .container {
-            text-align: center;
-            padding: 30px;
-        }
+    .container {
+        text-align: center;
+        padding: 30px;
+    }
 
-        .contact-card {
-            background: white;
-            width: 500px;
-            margin: auto;
-            padding: 25px;
-            border-radius: 10px;
-            box-shadow: 0px 2px 8px rgba(0,0,0,0.2);
-        }
+    .contact-box {
+        background: white;
+        width: 600px;
+        margin: auto;
+        padding: 20px;
+        border-radius: 10px;
+    }
+</style>
+```
 
-        .contact-card img {
-            width: 120px;
-            margin-bottom: 20px;
-        }
-
-        h1 {
-            color: #2c3e50;
-        }
-
-        p {
-            font-size: 18px;
-        }
-    </style>
 </head>
 
 <body>
 
-    <nav>
-        <a href="Home.html">Home</a>
-        <a href="About.html">About Us</a>
-        <a href="Contact.html" class="active">Contact Us</a>
-    </nav>
+```
+<nav>
+    <a href="Home.html">Home</a>
+    <a href="About.html">About Us</a>
+    <a href="Contact.html" class="active">Contact Us</a>
+</nav>
 
-    <div class="container">
+<div class="container">
 
-        <h1>Contact Us</h1>
+    <h1>Contact Us</h1>
 
-        <div class="contact-card">
+    <img src="/static/cars.jpeg"
+         alt="Cars"
+         width="500">
 
-            <img src="https://cdn-icons-png.flaticon.com/512/726/726623.png"
-                 alt="Contact">
+    <br><br>
 
-            <p><strong>Address:</strong></p>
-            <p>Pune, Maharashtra, India</p>
+    <div class="contact-box">
 
-            <p><strong>Email:</strong></p>
-            <p>vivekrane@example.com</p>
+        <img src="/static/contactus.png"
+             alt="Contact Us"
+             width="120">
 
-            <p><strong>Phone:</strong></p>
-            <p>+91 9876543210</p>
+        <h2>Get In Touch</h2>
 
-            <p><strong>Support Hours:</strong></p>
-            <p>Monday - Friday (9 AM to 6 PM)</p>
+        <p><strong>Address:</strong> Pune, Maharashtra, India</p>
 
-        </div>
+        <p><strong>Email:</strong> vivekrane@example.com</p>
+
+        <p><strong>Phone:</strong> +91 9876543210</p>
+
+        <p><strong>Support Hours:</strong> Monday-Friday, 9 AM - 6 PM</p>
 
     </div>
+
+</div>
+```
 
 </body>
 </html>
