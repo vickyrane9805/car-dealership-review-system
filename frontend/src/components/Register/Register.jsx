@@ -1,34 +1,69 @@
-import React from "react";
+import React, { useState } from "react";
 
 function Register() {
 
-  return (
-    <div>
-      <h1>Register</h1>
+const [formData, setFormData] = useState({
+username: "",
+first_name: "",
+last_name: "",
+email: "",
+password: ""
+});
 
-      <input placeholder="Username" />
-      <br />
+return (
 
-      <input placeholder="First Name" />
-      <br />
+```
+<div style={{ padding: "20px" }}>
 
-      <input placeholder="Last Name" />
-      <br />
+  <h1>Sign Up</h1>
 
-      <input placeholder="Email" />
-      <br />
+  <form>
 
-      <input
-        type="password"
-        placeholder="Password"
-      />
-      <br />
+    <input
+      type="text"
+      placeholder="Username"
+    />
 
-      <button>
-        Register
-      </button>
-    </div>
-  );
+    <br /><br />
+
+    <input
+      type="text"
+      placeholder="First Name"
+    />
+
+    <br /><br />
+
+    <input
+      type="text"
+      placeholder="Last Name"
+    />
+
+    <br /><br />
+
+    <input
+      type="email"
+      placeholder="Email"
+    />
+
+    <br /><br />
+
+    <input
+      type="password"
+      placeholder="Password"
+    />
+
+    <br /><br />
+
+    <button type="submit">
+      Register
+    </button>
+
+  </form>
+
+</div>
+```
+
+);
 }
 
 export default Register;
