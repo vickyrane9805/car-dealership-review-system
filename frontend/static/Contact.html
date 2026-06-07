@@ -1,28 +1,98 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+
+        nav {
+            background-color: #2c3e50;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-right: 20px;
+            padding: 8px 12px;
+            border-radius: 5px;
+        }
+
+        .active {
+            background-color: #3498db;
+        }
+
+        .container {
+            text-align: center;
+            padding: 30px;
+        }
+
+        .contact-card {
+            background: white;
+            width: 500px;
+            margin: auto;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0px 2px 8px rgba(0,0,0,0.2);
+        }
+
+        .contact-card img {
+            width: 120px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            color: #2c3e50;
+        }
+
+        p {
+            font-size: 18px;
+        }
+    </style>
 </head>
+
 <body>
 
-    <h1>Contact Us</h1>
-
     <nav>
-        <a href="About.html">About</a> |
-        <a href="Contact.html">Contact</a>
+        <a href="Home.html">Home</a>
+        <a href="About.html">About Us</a>
+        <a href="Contact.html" class="active">Contact Us</a>
     </nav>
 
-    <h3>Address</h3>
+    <div class="container">
 
-    <p>Pune, Maharashtra, India</p>
+        <h1>Contact Us</h1>
 
-    <h3>Email</h3>
+        <div class="contact-card">
 
-    <p>vivek@example.com</p>
+            <img src="https://cdn-icons-png.flaticon.com/512/726/726623.png"
+                 alt="Contact">
 
-    <h3>Phone</h3>
+            <p><strong>Address:</strong></p>
+            <p>Pune, Maharashtra, India</p>
 
-    <p>9876543210</p>
+            <p><strong>Email:</strong></p>
+            <p>vivekrane@example.com</p>
+
+            <p><strong>Phone:</strong></p>
+            <p>+91 9876543210</p>
+
+            <p><strong>Support Hours:</strong></p>
+            <p>Monday - Friday (9 AM to 6 PM)</p>
+
+        </div>
+
+    </div>
 
 </body>
 </html>
